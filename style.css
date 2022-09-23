@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* HEAD */
+header {
+  width: 100%;
+  height: 35vh;
+  padding: 4rem;
+  position: relative;
+  background-color: #181818;
+}
+main {
+  height: 65vh;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0.22rem;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+/* GENERAL */
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.3rem;
+}
+.number {
+  padding: 0.2rem 0rem;
+  font-size: 6rem;
+  position: absolute;
+  color: black;
+  background: white;
+  width: 10rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 50%;
+  border-radius: 20%;
+}
+
+.bw {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+.btn.again {
+  top: 3%;
+  left: 1%;
+  position: absolute;
+}
+/* GENERAL STYLE BUTTON */
+.btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 19px;
+  /* background: #D61C4E; */
+  background: #5cb8e4;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.btn:hover,
+.btn:active {
+  background: #d61c4e;
+  font-size: bold;
+  color: white;
+  box-shadow: 3px 4px 9px 8px black;
+}
+
+/* SECTION 1 */
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5rem; */
+}
+.guess {
+  width: 15rem;
+  padding: 1rem;
+  display: block;
+  background: none;
+  border: 4px solid white;
+  font-size: 5rem;
+  font-family: inherit;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #d61c4e;
+}
+.guess:focus-visible {
+  outline: none;
+  border: 4px solid red;
+}
+/* SECTION 2 */
+.right {
+  width: 52%;
+  font-size: 1.5rem;
+  /* margin-top: 5rem; */
+}
+.message {
+  margin-bottom: 3rem;
+}
